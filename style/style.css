@@ -1,0 +1,140 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+/* CSS Document */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .sagpanel{
+    width: 100%;
+  }
+	.footer{
+		width: 100%;
+	}
+}
+.footer {
+	/*width: 1110px;*/
+	height: 300px;
+	background-color: #1a1a1a;
+	color: aliceblue;
+	padding: inherit;
+	
+	float:left;
+	padding-top: 20px;
+}
+.logo{
+	width: 320px;
+	height: 90px;
+}
+.foot-text{
+  clear: both;
+	margin-top: 10%;
+	margin-left: 1%;
+	
+}
+.mail{
+	float:left;
+}
+.sosyal{
+	
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.sosyal a {
+	color: aliceblue;
+}
+.link{
+	display: block;
+	margin-left: 60%;
+}
+.bosluk {
+	width: 60px;
+}
+.icerik {
+	width: 790px;
+	float: left;
+}
+.sagpanel {
+	float: left;
+	margin-top: 1px;
+	width: 320px;
+	border-bottom: solid 1px #ebebeb;
+}
+.yazi {
+	text-align: justify;
+	font-family: 'Quicksand', sans-serif;
+	color: black;
+
+}
+.alan{
+	margin-top: 100px;
+	margin-left: 20%;
+	align-items: center;
+}
+#editor{
+	margin-top: 100px;
+	margin-left: 20%;
+	align-items: center;
+	width: 1000px;
+}
+.widget-title {
+	font-family: "Lato", sans-serif;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 1px;
+	background: #161616;
+	color: #fff;
+	font-size: 11px;
+	padding: 13px 0;
+	position: relative;
+	margin-bottom: 20px;
+}
+.widget-yazi {
+	text-align: justify;
+}
+.widget_about_avatar {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 200px;
+	max-width: 200px;
+}
+.baslik {
+	text-align: center;
+	position: relative;
+	margin: 0 0 10px 0;
+	padding: 0 60px;
+	/*font-family: "Lora", serif;*/
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300;
+	line-height: normal;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+.yazarbilgi{
+	float: right;
+}
+.kategori {
+	line-height: normal;
+	display: block;
+	position: relative;
+}
+li {
+	list-style: none;
+	display: block;
+	padding: 11px 0;
+	border-bottom: solid 1px #ebebeb;
+	text-align: left;/*display: block;
+    padding: 11px 0;
+    border-bottom: 1px solid #ececec;
+	*/
+}
+ul {
+}
+.tanitim {
+	font-family: 'Quicksand', sans-serif;
+	color: black;
+	text-align: justify;
+	margin-left: 20px;
+	margin-right: 20px;
+}
